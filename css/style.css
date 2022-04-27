@@ -1,0 +1,83 @@
+/*LOGO: medidas y posición*/
+.logo{
+    width:300px ;
+    height:30px;
+    padding: 0 30px;
+}
+.profile-name{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
+}
+.profile{
+    width:30px ;
+    height:30px;
+}
+.nav{
+    display: flex;
+}
+.navegacion {
+    float: right;
+    display: contents;
+    width: 100%;
+}
+
+/*bajo el navbar: espaciador*/
+.sub-header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 50px;
+}
+.espaciador-productos{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 30px;
+}
+.espaciador-categorias{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 3px;
+}
+
+/*no hace nada*/
+/*.menu{
+    display: flex;
+    justify-content: space-around;
+}*/
+
+/*zona central de productos: recorrido vertical*/
+.content-section {
+    min-height: 2000px; /*BORRAR*/
+}
+
+/*laterales sticky: se pegan*/
+/*.sidebar-section {
+    height: 100%;
+    width: 100%;
+}*/
+.sidebar-item {
+	position: absolute;
+    top: 0;
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
+}
+
+/*BOTONES DE CATEGORIA*/
+.category-btn{
+    width:50px ;
+    height:50px;
+    padding: 0px 0px 0px 0px;
+}
+.category-btn img{
+    width:50px ;
+    height:50px;
+}
