@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
+    <!-- Favicon -->
+    <link href="./img/icon2.png" rel="icon">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    
     <title>Alimentos Santiago</title>
 </head>
 <body>
@@ -27,44 +34,44 @@
         </div>
 
         <!-- SUB CABECERA ESPACIADORA-->
-        <div class="sub-header">
+        <div class="sub-header espaciadora">
         </div>
     
         <!-- CONTENIDO -->
         <div class="container-fluid">
             <div class="row">
                 <!-- BARRA LATERAL IZQUIERDA -->
-                <div class="col-2">
+                <div class="col-1">
                     <div class="sidebar-item">
                         <div class="make-me-sticky">
                             <!-- Content -->
 
                             <div class="col">
-                                <button type="button" class="btn category-btn">
+                                <button type="button" class="btn category-btn" category="papas">
                                     <img src="./img/cat1.png" alt="categoria #">
                                 </button>                            
                             </div>
-                            <div class="espaciador-categorias"></div>
+                            <div class="espaciador-categorias espaciadora"></div>
                             <div class="col">
-                                <button type="button" class="btn category-btn">
+                                <button type="button" class="btn category-btn" category="hamburguesas">
                                     <img src="./img/cat2.png" alt="categoria #">
                                 </button>                            
                             </div>
-                            <div class="espaciador-categorias"></div>
+                            <div class="espaciador-categorias espaciadora"></div>
                             <div class="col">
-                                <button type="button" class="btn category-btn">
+                                <button type="button" class="btn category-btn" category="pizzas">
                                     <img src="./img/cat3.png" alt="categoria #">
                                 </button>                            
                             </div>
-                            <div class="espaciador-categorias"></div>
+                            <div class="espaciador-categorias espaciadora"></div>
 
                         </div>
                     </div>
                 </div>
 
                 <!-- CONTENIDO CENTRAL -->
-                <div class="col-8">
-                    <div class="container content-section">
+                <div class="col-10">
+                    <div class="container-fluid content-section">
 
                         <div>
                             <h1>El Chef Recomienda</h1>
@@ -72,6 +79,15 @@
 
                         <div class="row menu">
     
+                            <div class="col card ">
+                                <img class="card-img-top img-fluid" src="./img/food.jpg" alt="food image">
+                                <div class="card-body"> 
+                                    <h4>Cazuela</h1>
+                                    <a>Plato típico Chileno, le lleva papa y otras cosas</a>
+                                    <h4>$99.99</h4>
+                                </div>
+                            </div>
+
                             <div class="col card ">
                                 <img class="card-img-top img-fluid" src="./img/food.jpg" alt="food image">
                                 <div class="card-body"> 
@@ -98,9 +114,11 @@
                                     <h4>$99.99</h4>
                                 </div>
                             </div>
+
+                            
     
                             <div class="w-100"></div>
-                            <div class="espaciador-productos">
+                            <div class="espaciador-productos espaciadora">
                             </div>
                             <div class="w-100"></div>
 
@@ -130,9 +148,28 @@
                                     <h4>$99.99</h4>
                                 </div>
                             </div>
+
+                            <div class="col card">
+                                <img class="card-img-top img-fluid" src="./img/food.jpg" alt="food image">
+                                <div class="card-body"> 
+                                    <h4>Cazuela</h1>
+                                    <a>Plato típico Chileno, le lleva papa y otras cosas</a>
+                                    <h4>$99.99</h4>
+                                </div>
+                            </div>
     
                             <div class="w-100"></div>
     
+
+                            <div class="col card">
+                                <img class="card-img-top img-fluid" src="./img/food.jpg" alt="food image">
+                                <div class="card-body"> 
+                                    <h4>Cazuela</h1>
+                                    <a>Plato típico Chileno, le lleva papa y otras cosas</a>
+                                    <h4>$99.99</h4>
+                                </div>
+                            </div>
+
                             <div class="col card">
                                 <img class="card-img-top img-fluid" src="./img/food.jpg" alt="food image">
                                 <div class="card-body"> 
@@ -165,7 +202,7 @@
                 </div>
 
                 <!-- BARRA LATERAL DERECHA -->
-                <div class="col-2">
+                <div class="col-1">
                     <div class="sidebar-item">
                         <div class="make-me-sticky">
                             <!-- Content -->

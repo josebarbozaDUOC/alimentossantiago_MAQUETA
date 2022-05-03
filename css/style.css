@@ -1,3 +1,11 @@
+body{
+    background-color:rgb(255, 245, 245)
+}
+
+.card{
+    background-color: transparent;
+}
+
 /*LOGO: medidas y posición*/
 .logo{
     width:300px ;
@@ -40,7 +48,9 @@
     width: 100%;
     padding: 3px;
 }
-
+.espaciadora{
+    background-color: transparent;
+}
 /*no hace nada*/
 /*.menu{
     display: flex;
@@ -63,12 +73,19 @@
 	width: 100%;
 	height: 100%;
     display: block;
+    justify-content: left;
+    justify-items: left;
 }
 .make-me-sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding-top: 60px;
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+
+
 }
 
 /*BOTONES DE CATEGORIA*/
